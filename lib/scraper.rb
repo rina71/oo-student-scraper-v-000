@@ -16,7 +16,7 @@ class Scraper
         :profile_url => card.css("a").attribute("href").value
 
       }
-      binding.pry
+      
       student
     }
   end
