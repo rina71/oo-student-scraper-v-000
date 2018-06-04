@@ -9,7 +9,7 @@ class Scraper
     index_url = Nokogiri::HTML(html)
     # binding.pry
     index_url.css("div.student-card").map{|card|
-      binding.pry
+      
       student = {
         :name => card.css("h4.student-name").text,
         :location => card.css("p.student-location").text,
