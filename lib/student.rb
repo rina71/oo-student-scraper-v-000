@@ -22,8 +22,7 @@ class Student
     @github = attributes_hash[:github]
     @blog = attributes_hash[:blog]
     @profile_quote = attributes_hash[:profile_quote]
-    @bio = attributes_hash[:bio] 
-    binding.pry
+    @bio = attributes_hash[:bio]
     @profile_url = attributes_hash[:profile_url]
   end
 
